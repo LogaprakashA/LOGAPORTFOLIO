@@ -1,0 +1,177 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7fa;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #0077b6;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5em;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00e1ff;
+}
+
+/* Home Section */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  text-align: center;
+  background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+  padding: 40px 20px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #0077b6;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #0077b6;
+  margin: 0;
+}
+
+.tagline {
+  font-size: 1.2em;
+  color: #333;
+  max-width: 500px;
+  margin: 15px auto 0;
+}
+
+/* Other Sections */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #0077b6;
+}
+
+.section p {
+  font-size: 1.1em;
+  color: #444;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+}
+.project-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.project-item h3 {
+  color: #0077b6;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+
+.project-item p {
+  color: #444;
+  font-size: 1em;
+  line-height: 1.5;
+}
+.certificate-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.certificate-item h3 {
+  color: #0077b6;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.certificate-item p {
+  color: #444;
+  font-size: 0.95em;
+  margin-bottom: 10px;
+}
+
+.credential-btn {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #0077b6;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9em;
+  transition: background-color 0.3s;
+}
+
+.credential-btn:hover {
+  background-color: #005f8f;
+}
